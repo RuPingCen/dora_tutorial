@@ -1,0 +1,14 @@
+nodes:
+  - id: node_a
+    path: build/node_a
+    inputs:
+      tick:
+        source: dora/timer/millis/500
+    outputs:
+      - data
+
+  - id: node_b
+    path: build/node_b
+    inputs:
+      data:
+        source: node_a/data

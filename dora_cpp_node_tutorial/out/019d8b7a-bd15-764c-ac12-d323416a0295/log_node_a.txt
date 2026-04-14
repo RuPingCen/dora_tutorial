@@ -1,0 +1,1 @@
+Node A started, sending: Hello from Node A (C API)!

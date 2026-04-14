@@ -1,0 +1,3 @@
+Node B started, waiting for events...
+[Node B] Received: Hello from Node A (C API)! | Time: Tue Apr 14 18:12:21 2026
+Received stop event
